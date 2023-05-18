@@ -32,3 +32,12 @@ export const searchUser = async (req: Request, res: Response) => {
     });
   }
 };
+
+export const deleteUser = async (req: Request, res: Response) => {
+  try {
+  } catch (error) {
+    return res.status(404).json({
+      message: "An error occurred while serarching all user",
+    });
+  }
+};
